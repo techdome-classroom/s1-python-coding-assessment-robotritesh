@@ -26,7 +26,7 @@ class Solution:
                 if grid[r][c] == 'L':
                     # If a land cell is found, trigger DFS to mark the entire island
                     dfs(r, c)
-                    num_islands += 1  # Each DFS corresponds to discovering a new island
+                    num_islands += 1  
         
         return num_islands
 
