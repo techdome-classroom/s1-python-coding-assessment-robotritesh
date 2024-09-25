@@ -23,5 +23,4 @@ def decode_message(s: str, p: str) -> bool:
                 # '*' can either match zero characters or one/more characters
                 dp[i][j] = dp[i][j - 1] or dp[i - 1][j]
     
-    # The answer is in the bottom-right corner of the DP table
     return dp[n][m]
