@@ -1,5 +1,5 @@
 def decode_message(s: str, p: str) -> bool:
-    # Length of input string and pattern
+    
     n, m = len(s), len(p)
     
    
