@@ -24,7 +24,7 @@ class Solution:
         for r in range(len(grid)):
             for c in range(len(grid[0])):
                 if grid[r][c] == 'L':
-                    # If a land cell is found, trigger DFS to mark the entire island
+                    
                     dfs(r, c)
                     num_islands += 1  
         
