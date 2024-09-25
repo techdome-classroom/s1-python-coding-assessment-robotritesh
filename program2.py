@@ -8,7 +8,7 @@ def decode_message(s: str, p: str) -> bool:
     # Base case: Empty pattern matches empty string
     dp[0][0] = True
     
-    # Fill the first row where the pattern consists of only '*'
+   
     for j in range(1, m + 1):
         if p[j - 1] == '*':
             dp[0][j] = dp[0][j - 1]
