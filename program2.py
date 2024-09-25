@@ -2,7 +2,7 @@ def decode_message(s: str, p: str) -> bool:
     # Length of input string and pattern
     n, m = len(s), len(p)
     
-    # Create a DP table with dimensions (n+1) x (m+1)
+   
     dp = [[False] * (m + 1) for _ in range(n + 1)]
     
     
