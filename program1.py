@@ -13,7 +13,7 @@ class Solution:
             
             # Explore all four possible directions (up, down, left, right).
             dfs(r - 1, c)  # up
-            dfs(r + 1, c)  # down
+            dfs(r + 1, c)  
             dfs(r, c - 1)  
             dfs(r, c + 1)  
         
