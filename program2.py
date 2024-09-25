@@ -5,7 +5,7 @@ def decode_message(s: str, p: str) -> bool:
     # Create a DP table with dimensions (n+1) x (m+1)
     dp = [[False] * (m + 1) for _ in range(n + 1)]
     
-    # Base case: Empty pattern matches empty string
+    
     dp[0][0] = True
     
    
