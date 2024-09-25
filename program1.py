@@ -11,7 +11,7 @@ class Solution:
             # Mark the current land cell as visited by turning it into water.
             grid[r][c] = 'W'
             
-            # Explore all four possible directions (up, down, left, right).
+            
             dfs(r - 1, c)  
             dfs(r + 1, c)  
             dfs(r, c - 1)  
