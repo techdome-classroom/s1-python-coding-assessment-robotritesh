@@ -20,7 +20,7 @@ class Solution:
         # Initialize island counter
         num_islands = 0
         
-        # Traverse every cell in the grid
+        
         for r in range(len(grid)):
             for c in range(len(grid[0])):
                 if grid[r][c] == 'L':
